@@ -6,7 +6,7 @@ main_text = "Hello! Welcome to IMAD";
 var marginLeft=0;
 var img=document.getElementById('img');
 function moveRight(){
-    margin=margin+5;
+    marginLeft=marginLeft+5;
     img.style.marginLeft= marignLeft + 'px';
 }
 img.onclick=function(){
